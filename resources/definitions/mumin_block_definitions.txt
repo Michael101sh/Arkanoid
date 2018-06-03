@@ -1,0 +1,11 @@
+# default values for blocks
+default height:75 width:68 stroke:color(black)
+
+# block definitions
+bdef symbol:a hit_points:3 fill-3:image(block_images/mumin2.png) fill:image(block_images/mumin1.png)
+bdef symbol:b hit_points:4 fill-4:image(block_images/mumin3.png) fill:image(block_images/mumin4.png)
+bdef symbol:c hit_points:6 fill-6:image(block_images/mumin6.png) fill:image(block_images/mumin5.png)
+bdef symbol:d hit_points:2 fill-2:image(block_images/mumin2.png) fill-1:image(block_images/mumin1.png)
+
+# spacers definitions
+sdef symbol:- width:50

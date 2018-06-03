@@ -1,0 +1,11 @@
+# default values for blocks
+default height:89 width:94 stroke:color(black) hit_points:3
+
+# block definitions
+bdef symbol:G hit_points:3 fill-3:image(block_images/smiley1.png) fill:image(block_images/smiley8.png)
+bdef symbol:b hit_points:2 fill-2:image(block_images/smiley6.png) fill:image(block_images/smiley7.png)
+bdef symbol:y hit_points:2 fill-2:image(block_images/smiley4.png) fill-1:image(block_images/smiley2.png)
+bdef symbol:r hit_points:2 fill-2:image(block_images/smiley5.png) fill-1:image(block_images/smiley3.png)
+
+# spacers definitions
+sdef symbol:- width:50

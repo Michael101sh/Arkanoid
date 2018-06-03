@@ -1,0 +1,11 @@
+# default values for blocks
+default height:50 width:50 stroke:color(black) hit_points:3 fill:image(block_images/winnie_the_pooh01.jpg)
+
+# block definitions
+bdef symbol:G hit_points:3 fill-2:image(block_images/winnie_pooh02.gif)
+bdef symbol:b hit_points:2 fill-2:image(block_images/winnie_the_pooh03.jpg)
+bdef symbol:y hit_points:2 fill-2:image(block_images/winnie_pooh02.gif)
+bdef symbol:r hit_points:3 fill-2:image(block_images/winnie_the_pooh03.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
